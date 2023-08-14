@@ -12,7 +12,7 @@ return config;
 module.exports = defineConfig({
   e2e: {
     setupNodeEvents,
-    baseUrl:'http://www.google.com',
+    baseUrl:'https://www.saucedemo.com/',
     specPattern: "cypress/e2e/bdd-cucumber/features/*.feature",
     watchForFileChanges:false,
     chromeWebSecurity: false,
