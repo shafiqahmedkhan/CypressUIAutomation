@@ -1,0 +1,25 @@
+{
+  "name": "cypressuiautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.3"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.4",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "save-dev": "^0.0.1-security"
+  },
+  "description": "",
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/bdd-cucumber/step-definition/*.js",
+    "filterSpecs": true,
+    "omitFiltered": true
+   }
+}
