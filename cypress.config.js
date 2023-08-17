@@ -19,4 +19,7 @@ module.exports = defineConfig({
     experimentalModifyObstructiveThirdPartyCode: true,
     defaultCommandTimeout: 10000
  },
+ env: {
+  "url": "https://www.saucedemo.com/",
+ },
 });
